@@ -64,5 +64,8 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1946156032
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 27917287424
 BOARD_FLASH_BLOCK_SIZE := 131072
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := m7,m7wls,one
+
 # inherit from the proprietary version
 -include vendor/htc/m7wls/BoardConfigVendor.mk
